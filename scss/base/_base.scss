@@ -1,0 +1,105 @@
+// Css reset start
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter';
+    color: #121212;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus-visible {
+    outline: none;
+}
+
+a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.flex_align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_bt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1270px;
+    width: 100%;
+}
+
+.mainBtn {
+    width: 163px;
+    height: 49px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    background-color: #FF4F47;
+    color: #fff;
+    border-radius: 6px;
+
+    &:hover {
+        background-color: unset;
+        border: 1px solid #FF4F47;
+        color: #FF4F47;
+    }
+}
+
+.fw700 {
+    font-weight: 700 !important;
+}
+.gap20{
+    gap: 20px !important;
+}
+
+// Css reset end
